@@ -17,7 +17,17 @@
                     Console.Write("\nAll possible strings are : ");
                     Permutetion.Permute(s, answer);
                     break;
-            
+                case 2:
+                    string[] arr = new string[] { "abc", "def", "ghi", "jkl" };
+                    Array.Sort(arr);
+                    Console.WriteLine("The elements of Sorted Array");
+                    BinarySearch.display(arr);
+                    object s1 = "mno";
+                    BinarySearch.result(arr, s1);
+                    object s2 = "def";
+                    BinarySearch.result(arr, s2);
+                    break;
+
                 default:
                     Console.WriteLine("Please enter right option");
                     break;
